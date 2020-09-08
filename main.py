@@ -7,7 +7,7 @@
 
 def getLetterGrade(grade):
   letter = ""
-  if grade >= 93:
+  if grade >= 93 and grade <= 100:
     letter = "A"
   elif grade >= 90 and grade < 93:
     letter = "A-"
