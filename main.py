@@ -4,6 +4,7 @@
 # Collaborator: Michael Li mz15907@psu.edu
 # Section: 3
 #Breakout: 1
+
 def getLetterGrade(grade):
   if grade >= 93 and grade <= 100:
     letter = "A"
